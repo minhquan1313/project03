@@ -471,7 +471,6 @@ img {
   display: flex;
   justify-content: space-around;
   margin: 6rem 0;
-  overflow: hidden;
 }
 
 .joinCommunity__whyJoin {
