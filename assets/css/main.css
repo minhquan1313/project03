@@ -91,6 +91,7 @@ a {
 .button--purple {
   background-color: var(--mainColor);
   color: white;
+  border: 1px solid var(--mainColor);
 }
 
 .button--text-bold {
