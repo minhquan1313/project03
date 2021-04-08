@@ -33,13 +33,11 @@ PhoneBox.addEventListener("mousemove", (e) => {
 
 PhoneBox.addEventListener("mouseenter", (e) => {
   Phone.style.transition = "all 0.05s linear";
-  //   Phone.style.transition = "none";
-  setTimeout(() => {}, 110);
 });
 
 //Out
 
 PhoneBox.addEventListener("mouseleave", (e) => {
-  Phone.style.transition = "all 0.3s ease";
+  Phone.style.transition = "all 0.6s ease";
   Phone.style.transform = `rotateY(0deg) rotateX(0deg)`;
 });
